@@ -54,6 +54,7 @@ header{
     -moz-box-shadow: 3px 10px 0 #ccc;
     -webkit-box-shadow:0 3px 10px 0 #ccc;
 }
+
 .alface{
     height: 250px;
     width: 270px;
@@ -63,29 +64,42 @@ header{
 .brocolis{
     height: 250px;
     width: 240px;
-
 }
 .pepino{
     height: 250px;
     width: 250px;
- 
 }
 .pimentao{
     height: 250px;
     width: 400px;
     margin-left: 30pt;
-    
 }
 .tomate{
     height: 220px;
     width: 350px;
-  
 }
 .repolho{
     height: 220px;
     width: 300px;
-   
 }
+
+.menu-produtos-dropdown {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100%;
+    padding: 6px 8px;
+    z-index: 1;
+}
+
+.menu-produtos-dropdown a {
+    text-transform: none !important;
+}
+
+.menu-produtos:hover .menu-produtos-dropdown {
+  display: block;
+}
+
 button{
     font-size: sans-serif;
     background-color: ;
