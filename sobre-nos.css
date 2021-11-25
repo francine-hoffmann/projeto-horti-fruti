@@ -1,0 +1,22 @@
+img{
+    
+    height: 300px;
+}
+.conteudo{
+    padding:75px;
+}
+p{
+    text-align:justify;
+    padding-right: 50px;
+}
+h1{
+    padding-bottom: 1vh;
+    font-family:sans-serif;
+    text-align: center;
+    color: #1c3422;
+}
+h2 {padding-bottom: 1vh;
+    font-family:sans-serif;
+    text-align: center;
+    color: #1c3422;
+}
