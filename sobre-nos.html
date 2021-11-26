@@ -11,12 +11,18 @@
 <body>
     <header>
         <div class="container-logo" align="center">
-            <a href="index.html"><img class="logo" src="imagens/logo2.png" alt="logo"></a>
+            <a href="index.html">
+                <picture>
+                    <source media="(min-width: 1024px) and (max-width: 1279px)" srcset="imagens/logo-1024.jpg">
+                    <source media="(max-width: 1023px)" srcset="imagens/logo-375.jpg">
+                    <img class="logo" src="imagens/logo-1280.jpg" alt="logo">
+                </picture>
+            </a>
         </div>
         <nav>
             <ul class="menu" align="center">
                 <li class="menu-produtos">
-                    <a href="index.html".html">Produtos</a>
+                    <a href="index.html">Produtos</a>
                     <div class="menu-produtos-dropdown">
                         <a href="frutas.html">Frutas</a>
                         <a href="legumes.html">Legumes</a>

@@ -21,11 +21,10 @@ header{
 .logo{
     margin-left: auto;
     margin-right: auto;
-    height: 300px;
 }
 
 .container-logo{
-    background-image: linear-gradient(to right, #2e5537 , #40764c); 
+    background-color: #2e5537; 
 }
 
 .menu{
@@ -179,8 +178,10 @@ h1{
 button {
     background-color: #900d09;
     border: none;
-    color: #fff;
     padding: 4px 8px;
     text-align: center;
     font-size: 10pt;
+}
+button a{
+    color: #fff;
 }

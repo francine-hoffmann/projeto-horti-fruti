@@ -1,4 +1,4 @@
-@media (min-width: 1280px) {
+@media (min-width: 1024px) {
     .conteudo{
         padding:75px;
     }
@@ -11,27 +11,7 @@
         border-right: 1px solid #1c3422;
     }
 
-    td{
-        min-width: 50%;
-        width: 50%;
-        padding: 0px 50px;
-    }
-}
-
-@media (min-width: 1024px) and (max-width: 1279px) {
-    .conteudo{
-        padding:75px;
-    }
-
-    img{
-        height: 300px;
-    }    
-
-    .coluna-esquerda{
-        border-right: 1px solid #1c3422;
-    }
-
-    td{
+    .conteudo td{
         min-width: 50%;
         width: 50%;
         padding: 0px 50px;

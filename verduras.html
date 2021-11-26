@@ -10,12 +10,18 @@
 <body>
     <header>
         <div class="container-logo" align="center">
-            <a href="index.html"><img class="logo" src="imagens/logo2.png" alt="logo"></a>
+            <a href="index.html">
+                <picture>
+                    <source media="(min-width: 1024px) and (max-width: 1279px)" srcset="imagens/logo-1024.jpg">
+                    <source media="(max-width: 1023px)" srcset="imagens/logo-375.jpg">
+                    <img class="logo" src="imagens/logo-1280.jpg" alt="logo">
+                </picture>
+            </a>
         </div>
         <nav>
             <ul class="menu" align="center">
                 <li class="menu-produtos">
-                    <a href="index.html".html">Produtos</a>
+                    <a href="index.html">Produtos</a>
                     <div class="menu-produtos-dropdown">
                         <a href="frutas.html">Frutas</a>
                         <a href="legumes.html">Legumes</a>
@@ -40,22 +46,24 @@
                     <th></th>
                 </tr>
                 <td>
-                    <img class="imagem-vitrine" src="imagens/alface.jpg" alt="alface">
-                    <p>Alface Unidade</p>
-                    <p>R$ 2,00</p>
-                    <button class="botao-comprar">Comprar</button>
+                    <a href="detalhes-produto.html">
+                        <img class="imagem-vitrine" src="imagens/alface.jpg" alt="alface">
+                        <p>Alface Unidade</p>
+                        <p>R$ 2,00</p>
+                        <button class="botao-comprar"><a href="contato.html"><a href="contato.html"></a>Comprar</a></a></button>
+                    </a>
                 </td>
                 <td>
                     <img class="imagem-vitrine" src="imagens/rucula.jpg" alt="rucula">
                     <p>Rúcula Maço</p>
                     <p>R$ 2,00</p>
-                    <button class="botao-comprar">Comprar</button>
+                    <button class="botao-comprar"><a href="contato.html">Comprar</a></button>
                 </td>
                 <td>
                     <img class="imagem-vitrine" src="imagens/couve-chinesa.jpg" alt="couvechinesa">
                     <p>Couve Chinesa Unidade</p>
                     <p>R$ 2,50</p>
-                    <button class="botao-comprar">Comprar</button>
+                    <button class="botao-comprar"><a href="contato.html">Comprar</a></button>
                 </td>
             </tr>
             <tr>
@@ -63,19 +71,19 @@
                     <img class="imagem-vitrine" src="imagens/repolho.jpg" alt="repolho">
                     <p>Repolho Unidade</p>
                     <p>R$ 2,00</p>
-                    <button class="botao-comprar">Comprar</button>
+                    <button class="botao-comprar"><a href="contato.html">Comprar</a></button>
                 </td>
                 <td>
                     <img class="imagem-vitrine" src="imagens/agriao.jpg" alt="agriao">
                     <p>Agrião Maço</p>
                     <p>R$ 2,00</p>
-                    <button class="botao-comprar">Comprar</button>
+                    <button class="botao-comprar"><a href="contato.html">Comprar</a></button>
                 </td>
                 <td>
                     <img class="imagem-vitrine" src="imagens/espinafre.png" alt="espinafre">
                     <p> Espinafre Maço</p>
                     <p>R$ 3,50</p>
-                    <button class="botao-comprar">Comprar</button>
+                    <button class="botao-comprar"><a href="contato.html">Comprar</a></button>
                 </td>
             </tr>
         </table>

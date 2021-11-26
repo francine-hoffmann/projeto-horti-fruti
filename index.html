@@ -10,12 +10,18 @@
 <body>
     <header>
         <div class="container-logo" align="center">
-            <a href="index.html"><img class="logo" src="imagens/logo2.png" alt="logo"></a>
+            <a href="index.html">
+                <picture>
+                    <source media="(min-width: 1024px) and (max-width: 1279px)" srcset="imagens/logo-1024.jpg">
+                    <source media="(max-width: 1023px)" srcset="imagens/logo-375.jpg">
+                    <img class="logo" src="imagens/logo-1280.jpg" alt="logo">
+                </picture>
+            </a>
         </div>
         <nav>
             <ul class="menu" align="center">
                 <li class="menu-produtos">
-                    <a href="index.html".html">Produtos</a>
+                    <a href="index.html">Produtos</a>
                     <div class="menu-produtos-dropdown">
                         <a href="frutas.html">Frutas</a>
                         <a href="legumes.html">Legumes</a>
@@ -40,22 +46,24 @@
             </tr>
             <tr>
                 <td>
-                    <img class="imagem-vitrine" src="imagens/alface.jpg" alt="alface">
-                    <p>Alface Unidade</p>
-                    <p>R$ 2,00</p>
-                    <button class="botao-comprar">Comprar</button>
+                    <a href="detalhes-produto.html">
+                        <img class="imagem-vitrine" src="imagens/alface.jpg" alt="alface">
+                        <p>Alface Unidade</p>
+                        <p>R$ 2,00</p>
+                        <button class="botao-comprar"><a href="contato.html">Comprar</a></button>
+                    </a>
                 </td>
                 <td>
                     <img class="imagem-vitrine" src="imagens/brocolis.jpg" alt="brocolis">
                     <p>Brócolis Unidade</p>
                     <p>R$ 5,00</p>
-                    <button class="botao-comprar">Comprar</button>
+                    <button class="botao-comprar"><a href="contato.html">Comprar</a></button>
                 </td>
                 <td>
                     <img class="imagem-vitrine" src="imagens/pepino.jpg" alt="pepino">
                     <p>Pepino Kg</p>
                     <p>R$ 3,50</p>
-                    <button class="botao-comprar">Comprar</button>
+                    <button class="botao-comprar"><a href="contato.html">Comprar</a></button>
                 </td>
             </tr>
             <tr>
@@ -63,19 +71,19 @@
                     <img class="imagem-vitrine" src="imagens/pimentao.jpg" alt="pimentao">
                     <p>Pimentão Kg</p>
                     <p>R$ 6,50</p>
-                    <button class="botao-comprar">Comprar</button>
+                    <button class="botao-comprar"><a href="contato.html">Comprar</a></button>
                 </td>
                 <td>
                     <img class="imagem-vitrine" src="imagens/tomate.jpg" alt="tomate">
                     <p>Tomate Kg</p>
                     <p>R$ 7,00</p>
-                    <button class="botao-comprar">Comprar</button>
+                    <button class="botao-comprar"><a href="contato.html">Comprar</a></button>
                 </td>
                 <td>
                     <img class="imagem-vitrine" src="imagens/maca.jpg" alt="maca">
                     <p>Maça Kg</p>
                     <p>R$ 6,00</p>
-                    <button class="botao-comprar">Comprar</button>
+                    <button class="botao-comprar"><a href="contato.html">Comprar</a></button>
                 </td>
             </tr>
             <tr>
@@ -83,19 +91,19 @@
                     <img class="imagem-vitrine" src="imagens/banana.jpg" alt="banana">
                     <p>Banana Kg</p>
                     <p>R$ 2,50</p>
-                    <button class="botao-comprar">Comprar</button>
+                    <button class="botao-comprar"><a href="contato.html">Comprar</a></button>
                 </td>
                 <td>
                     <img class="imagem-vitrine" src="imagens/laranja.jpg" alt="laranja">
                     <p>Laranja</p>
                     <p>R$ 2,50</p>
-                    <button class="botao-comprar">Comprar</button>
+                    <button class="botao-comprar"><a href="contato.html">Comprar</a></button>
                 </td>
                 <td>
                     <img class="imagem-vitrine" src="imagens/cebola.jpg" alt="cebola">
                     <p>Cebola Kg</p>
                     <p>R$ 1,50</p>
-                    <button class="botao-comprar">Comprar</button>
+                    <button class="botao-comprar"><a href="contato.html">Comprar</a></button>
                 </td>
             </tr>
         </table>
