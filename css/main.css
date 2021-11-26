@@ -175,13 +175,14 @@ h1{
     text-transform: uppercase;
 }
 
-button {
+button, input[type=submit] {
     background-color: #900d09;
     border: none;
     padding: 4px 8px;
     text-align: center;
     font-size: 10pt;
 }
-button a{
+
+button a, input[type=submit]{
     color: #fff;
 }
